@@ -1,0 +1,128 @@
+body {
+    font: 400 16px Verdana;
+    background: rgb(217, 217, 217);
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 10px;
+}
+@media (max-width: 650px) {
+    body{
+        margin: auto;
+        background: #111;
+        color: aliceblue;
+    }
+    
+}
+
+.cards1 {
+    background: rgb(248, 250, 151);
+    border-radius: 20px;
+    padding: 15px;
+    max-width: 950px;
+    margin: auto;
+    }
+.cards2 {
+        background: rgb(94, 197, 253);
+        border-radius: 5px;
+        padding: 15px;
+        max-width: 950px;
+        margin: auto;
+        }
+
+
+.container {
+    margin: auto;
+    max-width: 950px;
+}
+.avatar {
+    width: 200px;
+    border-radius: 25px;
+
+}
+
+.text {
+    padding-top: 16px;
+    padding-bottom: 7px;
+}
+.btn {
+   padding: 30px;
+    border-radius: 35px;
+    background: rgb(0, 157, 255);
+    color: aliceblue;
+    border: none;
+    text-shadow: none;
+    font-size: 16px;
+}
+.btn:hover{
+    color: black;
+    cursor: pointer;
+}
+
+a {
+    color: rgb(115, 0, 255);
+    font-size: 19px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(255, 80, 223);
+}
+
+a:visited{
+    color: red;
+}
+
+.cards1 ol li {
+    padding: 6px;
+    font-style: italic;
+}
+
+.cards2 th {
+    padding-bottom: 20px;
+}
+
+.cards2 tr td {
+    padding: 6px;
+}
+
+
+.cards3  h2 {
+text-align: center;
+}
+
+.form-row {
+    display: flex;
+}
+
+.form-row .forgroup {
+    margin-right: 20px;
+    width: 50%;
+}
+
+.form-row .forgroup:last-child {
+    margin-right: 0;
+}
+
+.forgroup label {
+    display: block;
+    font-size: 14px;
+    color: #111;
+}
+
+.forgroup input, .forgroup textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    color: black;
+    padding: 15px 0 10px;
+    margin-bottom: 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.cards3 {
+    max-width: 950px;
+    margin: auto;
+}
